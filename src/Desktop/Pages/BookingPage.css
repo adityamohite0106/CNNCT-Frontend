@@ -1,0 +1,104 @@
+.booking-container {
+    max-width: 800px;
+    background-color: #F3F3F1;
+    /* margin: auto; */
+    padding: 20px;
+}
+
+.booking-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.booking-subtitle {
+    font-size: 14px;
+    color: gray;
+    margin-bottom: 20px;
+}
+
+.booking-card {
+    background: #f8f9fa;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.booking-tabs {
+    display: flex;
+    gap: 20px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+}
+
+.booking-tabs span {
+    font-size: 16px;
+    cursor: pointer;
+    color: gray;
+}
+
+.booking-tabs .active-tab {
+    font-weight: bold;
+    color: black;
+    border-bottom: 2px solid blue;
+    padding-bottom: 5px;
+}
+
+.booking-list {
+    margin-top: 15px;
+}
+
+.booking-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.event-date-time {
+    flex: 1;
+}
+
+.event-time {
+    color: blue;
+    font-size: 14px;
+}
+
+.event-details {
+    flex: 2;
+}
+
+.event-title {
+    font-weight: bold;
+}
+
+.event-team {
+    color: gray;
+    font-size: 14px;
+}
+
+.event-status {
+    flex: 1;
+}
+
+.accepted-btn {
+    background: #eee;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 12px;
+}
+
+.event-attendees {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+@media screen and (max-width: 768px) {
+    .booking-container{
+        background-color: #FFFFFF;
+    }
+}

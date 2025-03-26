@@ -1,0 +1,15 @@
+@media screen and (max-width: 768px) {
+
+.events-page {
+  
+    height: 100vh;
+    background-color: #FFFFFF;
+}
+
+.booking-item {
+    font-size: 9px;
+}
+.event-banner{
+    width: 297px;
+}
+}

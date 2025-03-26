@@ -1,0 +1,88 @@
+.availability-container {
+  background-color: #F3F3F1;
+    max-width: 900px;
+    /* margin: auto; */
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+.availability-container p {
+padding: 10px;
+  }   
+  .toggle-buttons {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  .toggle-buttons button {
+    padding: 8px 15px;
+    border: none;
+    background: #000000;
+    background-color: #ffffff;
+
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .toggle-buttons .active {
+    background: rgb(200, 200, 202);
+    color: white;
+  }
+  
+  .availability-header {
+    display: flex;
+    justify-content: space-between;
+    background: #f8f9fa;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .weekly-hours {
+    background: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .day-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .day-name {
+    width: 50px;
+    font-weight: bold;
+  }
+  
+  .time-slots {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .unavailable-text {
+    color: gray;
+  }
+  
+  .calendar-container {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .fc-event {
+    padding: 5px;
+    border-radius: 5px;
+  }
+
+
+
+  @media screen and (max-width: 768px){
+    .availability-container {
+   background-color: #ffffff;
+    }
+   
+  }

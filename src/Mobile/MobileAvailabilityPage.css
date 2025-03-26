@@ -1,0 +1,10 @@
+/* ✅ Mobile Styles for Availability Page */
+@media screen and (max-width: 768px) {
+    .weekly-hours{
+        margin-bottom: 80px;
+    }
+    .fc .fc-toolbar{
+        display: grid;
+    }
+  }
+  

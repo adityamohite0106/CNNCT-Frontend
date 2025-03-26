@@ -1,0 +1,111 @@
+/* ✅ Hide Sidebar on Mobile by Default */
+@media screen and (max-width: 768px) {
+  .sidebar {
+    position: fixed;
+    bottom: 0;
+    /* gap: 101px; */
+    text-align: center;
+    left: -9px;
+    width: 100%;
+    min-width: 103%;
+    height: 78px;
+    background: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 10px;
+    box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.1);
+    flex-direction: row;
+    touch-action: manipulation;
+    padding-top: 6px;
+  }
+
+  /* ✅ Hide Logo & Profile on Mobile */
+  .logo_dashboard,
+  .user-profile {
+    display: none;
+  }
+
+  /* ✅ Mobile Navigation */
+  .nav-links {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+  }
+  .main-content {
+    height: 100vh;
+    margin-top: 50px;
+    flex-grow: 1;
+    margin-bottom: 100px;
+}
+.signout-button{
+    position: fixed;
+    top: 2px;
+    right: 83px;
+}
+
+  .nav-links li {
+    text-align: center;
+    font-size: 14px;
+    flex-grow: 1;
+  }
+
+  .nav-links li i {
+    font-size: 20px;
+  }
+
+  /* ✅ Make Navigation Responsive */
+  nav {
+    width: 100%;
+    max-width: 470px; /* Prevent it from getting too wide */
+  }
+
+  body {
+    touch-action: manipulation; /* Prevent pinch zoom */
+  }
+
+  .logo_dashboard2 {
+    font-size: 24px;
+    position: fixed;
+    top: 5px;
+    left: 15px;
+    font-weight: bold;
+    color: #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+  }
+  .Mobile-dashboard-nav {
+    display: block;
+    display: block;
+    position: fixed;
+    top: 0px;
+    /* background-color: white; */
+  }
+  .user-profile2 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: fixed;
+    top: 5px;
+    right: 10px;
+    background: #fff;
+    padding: 8px 12px;
+    border-radius: 30px;
+    border: 1px solid #ddd;
+    cursor: pointer;
+    transition: 0.3sease-in-out;
+  }
+  .profile-name2 {
+    display: none;
+  }
+  .create_event {
+    display: none;
+  }
+  .nav-events {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+  }
+}

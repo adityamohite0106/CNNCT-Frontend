@@ -1,0 +1,87 @@
+.modal-container1 {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 600px;
+    max-width: 90%;
+    text-align: left;
+    font-family: "Inter", sans-serif;
+}
+
+.modal-title1 {
+    color: #007bff;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.form-group1 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.form-label1 {
+    font-size: 14px;
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.input-field1, .textarea-field1, .select-field1 {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+.textarea-field1 {
+    height: 60px;
+    resize: none;
+}
+
+.input-field1[readonly] {
+    background: #f8f8f8;
+}
+
+.row-group1 {
+    display: flex;
+    gap: 10px;
+}
+
+.button-group1 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.btn-cancel1 {
+    background: #e0e0e0;
+    color: #333;
+    padding: 12px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.btn-save1 {
+    background: #007bff;
+    color: white;
+    padding: 12px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.btn-cancel1:hover, .btn-save1:hover {
+    opacity: 0.9;
+}

@@ -1,0 +1,150 @@
+.events-page {
+    padding: 20px;
+    background-color: #F3F3F1;
+  }
+  
+  .events-title {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  .header-container {
+    display: flex;
+    justify-content: space-between; /* Pushes elements apart */
+    align-items: center; /* Aligns vertically */
+    margin-bottom: 20px; /* Adds spacing below */
+}
+
+  .add-event-btn {
+    float: right;
+    background: none;
+    border: 1px solid #007bff;
+    padding: 10px 15px;
+    border-radius: 20px;
+    color: #007bff;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .events-container {
+    display: flex;
+    flex-wrap: wrap;
+   
+    gap: 20px;
+    margin-top: 20px;
+    max-width: 1150px; /* Ensures three cards fit in one row */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.event-card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 30%; /* Adjust width for three cards per row */
+  min-width: 300px; /* Prevents cards from shrinking too much */
+  /* padding-bottom: 10px; */
+  text-align: center;
+}
+
+
+
+@media (max-width: 800px) {
+    .event-card {
+        width: 100%; /* Full width for smaller screens */
+    }
+}
+
+
+  
+  .event-header {
+    border-radius: 20px 20px 0px 0px;
+    padding: 5px;
+    color: white;
+  }
+  .event-header-content{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  
+  .event-details {
+    display: flex
+    ;
+    gap: 10px;
+        flex-direction: column;
+    padding: 10px;
+    font-size: 14px;
+    color: #333;
+    text-align: left;
+    border-bottom: 1px solid rgb(132, 128, 128);
+  }
+  .notification {
+    transition: opacity 0.3s ease-in-out;
+ 
+
+  }
+  .event-time {
+    color: #007bff;
+    font-weight: bold;
+    padding-top: 5px;
+  }
+  
+  .event-actions {
+    display: flex
+    ;
+        justify-content: right;
+        gap: 19px;
+        padding: 10px;
+  }
+  
+  .edit-icon, .delete-icon {
+    cursor: pointer;
+    font-size: 16px;
+    color: gray;
+  }
+  
+  .switch {
+    position: relative;
+    display: inline-block;
+    width: 34px;
+    height: 20px;
+  }
+  
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: 0.4s;
+    border-radius: 34px;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 12px;
+    width: 12px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    transition: 0.4s;
+    border-radius: 50%;
+  }
+  
+  input:checked + .slider {
+    background-color: #007bff;
+  }
+  
+  input:checked + .slider:before {
+    transform: translateX(14px);
+  }
+  
