@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import "../Pages/Entrypage.css";
+import "../Pages/EntryPage.css";
 import "/src/Mobile/MobileEntryPage.css"
 
 function Entrypage() {
