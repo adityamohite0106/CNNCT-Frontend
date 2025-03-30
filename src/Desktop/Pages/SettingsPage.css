@@ -2,13 +2,13 @@
     max-width: 750px;
     margin: 5px auto;
     padding: 20px;
-    background: #f8f8f8;
+    background: #fff;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 .edit-profile-container1 p {
 padding: 10px;
-background: #fff;
+
 }
 .profile-header{
    padding: 20px;
